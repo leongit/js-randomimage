@@ -1,0 +1,26 @@
+  <!DOCTYPE html>
+	  <html>
+	  <head>
+	  <title>Lesson 7: Leave Boring Repetitive Stuff to JavaScript with Loops</title>
+	  </head>
+	  <body>
+	  <h1>Lesson 7: for Loop</h1>
+	
+	  <div id="wrapper"></div>
+	  
+	  <script type="text/javascript">
+		
+		var container = document.getElementById("wrapper");
+		var randomNumber = Math.random();
+		var numImages = Math.floor(randomNumber * 11);
+
+		for (var i = 1; i <= numImages; i++) {
+			var img = '<img src ="bd.jpg" alt="image"/>';
+			container.innerHTML += img;
+		};
+
+	  </script>
+		
+	  </body>
+	  </html>
+	
